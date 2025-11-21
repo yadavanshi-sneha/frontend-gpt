@@ -25,7 +25,6 @@ function App() {
 
   return (
      <div className='app'>
-         <img public="/logo.png"/>
          <MyContext.Provider value={providerValues}>
           <Sidebar></Sidebar>
           <ChatWindow></ChatWindow>

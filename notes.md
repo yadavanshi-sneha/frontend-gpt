@@ -16,3 +16,10 @@ sudo ./svc.sh uninstall  # Remove the service
 
  5. ls /etc/systemd/system/ | grep frontend-gpt
 
+ := sudo systemctl restart  nginx ( cmd to start nginx)
+
+dist in react is store to build files . 
+ 
+ sudo systemctl reload nginx
+
+

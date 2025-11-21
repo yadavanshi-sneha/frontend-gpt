@@ -26,7 +26,7 @@ function ChatWindow(){
         };
 
         try{
-             const response = await fetch("http://ec2-16-176-211-221.ap-southeast-2.compute.amazonaws.com:8000/api/chat",options);
+             const response = await fetch("http://ec2-3-104-81-1.ap-southeast-2.compute.amazonaws.com/:8000/api/chat",options);
              const res = await response.json();
              console.log(res);
              setReply(res.reply);
