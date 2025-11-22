@@ -10,7 +10,7 @@ function Sidebar() {
         try{
                const response = await fetch(`http://ec2-3-104-81-1.ap-southeast-2.compute.amazonaws.com:8000/api/thread`);
                const res = await response.json();
-               const filteredData = res.map((thread) => ({threadId: thread.threadId, title:thread.title}));
+               const filteredData = res.map(thread => ({threadId: thread.threadId, title:thread.title}));
               // console.log(filteredData);
                setAllThreads(filteredData);
 
